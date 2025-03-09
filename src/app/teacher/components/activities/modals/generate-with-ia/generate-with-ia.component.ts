@@ -65,12 +65,7 @@ export class GenerateWithIAComponent {
   //Método que crea el formulario
   createForm() {
     this.questionIAForm = this.formBuilder.group({
-      context: ['',
-        [
-          Validators.required,
-          Validators.pattern('^[a-zA-ZáéíóúÁÉÍÓÚñÑ,.""¿?!¡;:\\s]*$')
-        ]
-      ],
+      context: [''],
       model: ['', Validators.required],
     });
   }

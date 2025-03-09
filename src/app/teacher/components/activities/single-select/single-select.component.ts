@@ -104,25 +104,21 @@ export class SingleSelectComponent {
       textRoot: ['',
         [
           Validators.required,
-          Validators.pattern('^[a-zA-ZáéíóúÁÉÍÓÚñÑ¿?!¡.,;:()""#$%&\\s]*$')
         ]
       ],
       optionOne: ['',
         [
           Validators.required,
-          Validators.pattern('^[a-zA-ZáéíóúÁÉÍÓÚñÑ\\s]*$')
         ]
       ],
       optionTwo: ['',
         [
           Validators.required,
-          Validators.pattern('^[a-zA-ZáéíóúÁÉÍÓÚñÑ\\s]*$')
         ]
       ],
       optionThree: ['',
         [
           Validators.required,
-          Validators.pattern('^[a-zA-ZáéíóúÁÉÍÓÚñÑ\\s]*$')
         ]
       ],
       difficulty: ['',

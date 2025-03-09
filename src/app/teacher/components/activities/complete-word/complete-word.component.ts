@@ -101,19 +101,16 @@ export class CompleteWordComponent {
       textRoot: ['',
         [
           Validators.required,
-          Validators.pattern('^[a-zA-ZáéíóúÁÉÍÓÚñÑ,.:;()\\s]*$')
         ]
       ],
       wordToComplete: ['',
         [
           Validators.required,
-          Validators.pattern('^[a-zA-ZáéíóúÁÉÍÓÚñÑ\\s]*$')
         ]
       ],
       hind: ['',
         [
           Validators.required,
-          Validators.pattern('^[a-zA-ZáéíóúÁÉÍÓÚñÑ,.:;()\\s]*$')
         ]
       ],
       difficulty: ['',

@@ -104,7 +104,7 @@ export class TrueOrFalseComponent {
       textRoot: ['',
         [
           Validators.required,
-          Validators.pattern('^[a-zA-ZáéíóúÁÉÍÓÚñÑ!¡¿?.,;:{}[\\]()"\'#$%&=\\s]*$')
+          Validators.pattern('')
         ]
       ],
       difficulty: ['',
